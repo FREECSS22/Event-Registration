@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 50px;
+    height: 506px;
+    background: url(../../../image/backgroundimg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border: #F0AB46;
+    border-radius: 40px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #F0AB46;
+    font-size: 1em;
+    font-weight: 550;
+    color: #2B4893;
+}
+
+button:hover {
+    background: #2B4893;
+    color: #F0AB46;
+}
+
+/* Webkit customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2B4893; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F0AB46;
+    border-radius: 6px;
+    border: 2px solid #2B4893; /* Optional border around the thumb */
+    transition: background 0.3s ease; /* Smooth transition for hover */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: darkorange;
+}
